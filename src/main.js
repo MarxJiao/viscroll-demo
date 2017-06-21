@@ -9,7 +9,9 @@ Vue.use(VIscroll, {
   preventDefault: true,
   tap: false,
   bounce: false,
-  disableTouch: true
+  disableMouse: false,
+  disablePointer: true,
+  disableTouch: false
 })
 
 /* eslint-disable no-new */
