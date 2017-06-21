@@ -1,6 +1,12 @@
-# viscroll-demo
+# viscroll-demo [![Build Status](https://travis-ci.org/MarxJiao/viscroll-demo.svg?branch=master)](https://travis-ci.org/MarxJiao/viscroll-demo)
+
 
 > A Vue.js project
+
+
+demo地址：http://marxjiao.com/viscroll-demo/
+
+
 
 ## Build Setup
 
