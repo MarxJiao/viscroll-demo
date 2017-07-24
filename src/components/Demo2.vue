@@ -38,10 +38,11 @@ export default {
   },
   methods: {
       getIscroll(iscroll) {
-          console.log(iscroll);
-          iscroll.on('scrollStart', function() {
-              console.log('scrollStart')
-          })
+          if (iscroll) {
+              iscroll.on('scrollStart', function() {
+                console.log('scrollStart')
+            })
+          }
       }
   }
 }
